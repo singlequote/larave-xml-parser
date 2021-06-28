@@ -2,8 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/singlequote/laravel-xml-parser.svg?style=flat-square)](https://packagist.org/packages/singlequote/laravel-xml-parser)
 [![Total Downloads](https://img.shields.io/packagist/dt/singlequote/laravel-xml-parser.svg?style=flat-square)](https://packagist.org/packages/singlequote/laravel-xml-parser)
-[![Build Status](https://img.shields.io/travis/singlequote/laravel-xml-parser/master.svg?style=flat-square)](https://travis-ci.org/singlequote/laravel-xml-parser)
-[![StyleCI](https://github.styleci.io/repos/137213815/shield?branch=master)](https://github.styleci.io/repos/137213815)
 
 This package is optimized XML handling package for Laravel aiming to be easy and fast.
 
