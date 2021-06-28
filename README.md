@@ -26,8 +26,8 @@ This packages comes with a facade which you can use like this `\XML::` or use it
 
 In depth guides can be found here:
 
-* [Exporting](https://singlequote.github.io/XML/docs/export)
-* [Importing](https://singlequote.github.io/XML/docs/import)
+* [Exporting](https://singlequote.github.io/larave-xml-parser/docs/export)
+* [Importing](https://singlequote.github.io/larave-xml-parser/docs/import)
 
 
 ```php
@@ -56,7 +56,7 @@ If you discover any security related issues, please email info@quotec.nl instead
 ## Credits
 
 - [Wim Pruiksma](https://github.com/wimurk)
-- [All Contributors](../../contributors)
+- [All Contributors](https://github.com/singlequote/larave-xml-parser/graphs/contributors)
 
 ## License
 
