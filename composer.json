@@ -1,0 +1,59 @@
+{
+  "name": "singlequote/laravel-xml-parser",
+  "description": "",
+  "keywords": [
+    "XML",
+    "reader",
+    "xml",
+    "laravel"
+  ],
+  "homepage": "https://github.com/singlequote/laravel-xml-parser",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Quotec",
+      "email": "info@quotec.nl",
+      "homepage": "https://quotec.nl/",
+      "role": "Owner"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-dom": "*",
+    "ext-simplexml": "*",
+    "ext-json": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "SingleQuote\\LaravelXmlParser\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "SingleQuote\\LaravelXmlParser\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SingleQuote\\LaravelXmlParser\\XMLServiceProvider"
+      ],
+      "aliases": {
+        "XML": "SingleQuote\\LaravelXmlParser\\XMLFacade"
+      }
+    }
+  },
+  "suggest": {
+    "illuminate/view": "Required to use the load view feature.",
+    "laravel/laravel": "Required to use the load view feature."
+  }
+}

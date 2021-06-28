@@ -1,0 +1,18 @@
+<?php
+
+namespace SingleQuote\LaravelXmlParser\Transformers;
+
+/**
+ * Transformers allow data to be transformed before being send to the user.
+ */
+interface Transformer
+{
+    /**
+     * Apply is invoked before the final output is send to the user.
+     *
+     * @param mixed $data - the xml data
+     *
+     * @return mixed
+     */
+    public static function apply($data);
+}
