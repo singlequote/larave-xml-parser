@@ -26,8 +26,8 @@ This packages comes with a facade which you can use like this `\XML::` or use it
 
 In depth guides can be found here:
 
-* [Exporting](https://singlequote.github.io/larave-xml-parser/docs/export)
-* [Importing](https://singlequote.github.io/larave-xml-parser/docs/import)
+* [Exporting](https://singlequote.github.io/larave-xml-parser/export)
+* [Importing](https://singlequote.github.io/larave-xml-parser/import)
 
 
 ```php
